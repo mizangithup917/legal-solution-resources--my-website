@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
    <link rel="stylesheet" href="./tailwind.css">
+   <script src="https://kit.fontawesome.com/3bfd9e8f45.js" crossorigin="anonymous"></script>
     <title>legal-solution-resources My website</title>
 </head>
 <body>
@@ -13,27 +14,74 @@
             <h2 class="text-4xl font-bold text-gray-700 ml-15">MR-Tailwind</h2>
             <ul class="flex gap-[25px] text-1xl font-bold text-gray-500">
                 <li class="text-amber-700"><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">cases</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Services <i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="#">cases <i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="#">Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
             </ul>
             <button class="bg-amber-700 text-1xl py-4 px-6 rounded-lg font-bold text-white mr-15 hover:bg-amber-500 transition">Free Consultation</button>
         </nav>
         <div class="relative">
                 <img class="my-16 m-auto" src="./images/banner.png" alt="">
-            <div class="min-w-2xl m-auto text-center absolute top-1.5 bottom-1.5 left-1.5 right-1.5 mt-50">
+            <div class="min-w-2xl m-auto text-center absolute top-1.5 bottom-1.5 left-1.5 right-1.5 mt-40">
                     <h3 class="text-6xl  text-white font-extrabold pb-2">We Provide Effective<br> Legal Solutions</h3>
                     <p class="pb-8  text-gray-100">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
                 <div class="gap-5 flex justify-center ml-15 mb-10">
                     <input class="pl-5 text-1xl py-1 px-1 min-w-md bg-gray-200 rounded-sm items-center border-none" type="search" placeholder="Search your services">
                     <button class="bg-amber-700 text-1xl py-4 px-8 rounded-lg font-bold text-white mr-15 hover:bg-amber-500 transition">Search</button>
-                </div>
-                
+                </div> 
         </div>
         </div>
     </header>
-    <main></main>
+
+    <main>
+        <div class="min-w-2xl text-center m-auto text-center mb-[64px]">
+            <h3 class="text-[40px] font-extrabold mb-10 ">The Legal Practice Area</h3>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour.</p>
+        </div>
+
+        <div class="card_container grid grid-cols-1 md: grid-cols-2 lg: grid-cols-3 items-center justify-items-center mb-20 gap-x-0 gap-y-5">
+
+            <div class="card-1 w-80 text-center lg:grid-cols-3 gap-4 rounded-lg p-10">
+                <img class="text-center m-auto mb-6" src="./images/business.png" alt="">
+                <h4 class="text-2xl font-bold mb-6">Business Law</h4>
+                <p class="mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <i class="fa-solid fa-circle-right text-4xl text-yellow-600 mb-10 hover:text-yellow-400 "></i>
+                <!-- <img class="text-center m-auto mb-8" src="./images/Frame.png" alt=""> -->
+            </div>
+            <div class="card-1 w-80 text-center lg:grid-cols-3 gap-4 rounded-lg p-10 shadow-md">
+                <img class="text-center m-auto mb-6" src="./images/child.png" alt="">
+                <h4 class="text-2xl font-bold mb-6">Child Support</h4>
+                <p class="mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <i class="fa-solid fa-circle-right text-4xl text-yellow-600 mb-10 hover:text-yellow-400"></i>
+            </div>
+            <div class="card-1 w-80 text-center lg:grid-cols-3 gap-4 rounded-lg p-10">
+                <img class="text-center m-auto mb-6" src="./images/criminal.png" alt="">
+                <h4 class="text-2xl font-bold mb-6">Criminal Law</h4>
+                <p class="mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <i class="fa-solid fa-circle-right text-4xl text-yellow-600 mb-10 hover:text-yellow-400"></i>
+            </div>
+            <div class="card-1 w-80 text-center  lg:grid-cols-3 gap-4 rounded-lg p-10">
+                <img class="text-center m-auto mb-6" src="./images/divorce.png" alt="">
+                <h4 class="text-2xl font-bold mb-6">Divorce Law</h4>
+                <p class="mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <i class="fa-solid fa-circle-right text-4xl text-yellow-600 mb-10 hover:text-yellow-400"></i>
+            </div>
+            <div class="card-1 w-80 text-center  lg:grid-cols-3 gap-4 rounded-lg shadow-md p-10">
+                <img class="text-center m-auto mb-6" src="./images/education.png" alt="">
+                <h4 class="text-2xl font-bold mb-6">Education Law</h4>
+                <p class="mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <i class="fa-solid fa-circle-right text-4xl text-yellow-600 mb-10 hover:text-yellow-400"></i>
+            </div>
+            <div class="card-1 w-80 text-center  lg:grid-cols-3 gap-4 rounded-lg p-10">
+                <img class="text-center m-auto mb-6" src="./images/tax.png" alt="">
+                <h4 class="text-2xl font-bold mb-6">Tax Law</h4>
+                <p class="mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <i class="fa-solid fa-circle-right text-4xl text-yellow-600 mb-10 hover:text-yellow-400"></i>
+            </div>
+           
+        </div>
+    </main>
     <footer></footer>
 </body>
 </html>
